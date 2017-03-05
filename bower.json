@@ -1,0 +1,24 @@
+{
+  "name": "rbr-course6",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "votuankiet <votuankiet162@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/votuankiet/rbr-course-6-assign-1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery2": "^2.0.0",
+    "bootstrap-sass": "^3.3.7",
+    "angular": "^1.6.2",
+    "angular-ui-router": "^0.4.2",
+    "angular-resource": "^1.6.2"
+  }
+}
