@@ -53,7 +53,8 @@ class CitiesController < ApplicationController
     def set_city
       @city = City.find(params[:id])
     end
-
+    #required that params is a json object that have "city" as one of the key and under "city" there is "name"
+    #{city: {name: "New York"}}
     def city_params
       params.require(:city).permit(:name)
     end
