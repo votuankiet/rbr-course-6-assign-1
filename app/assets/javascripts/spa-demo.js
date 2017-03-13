@@ -13,3 +13,4 @@
 //= require spa-demo/cities/cities.service
 //= require spa-demo/cities/cities.controller
 //= require spa-demo/cities/cities.directive
+//= require spa-demo/cities/form/crud.directive.js
