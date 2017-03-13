@@ -16,7 +16,7 @@
         controllerAs: "citiesVM",
         restrict: "E",
         link: link,
-        scope: true
+        scope: false//no new scope created, use the parent scope (default)
     };
     return directive;
 
